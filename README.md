@@ -19,16 +19,16 @@ The dataset I use is https://archive.ics.uci.edu/ml/datasets/Beijing+PM2.5+Data
 ## Result
 
 #### time step = 1: </br>
-![timeseries](/data/loss_1.png.png) </br>
-![timeseries](/data/predict_1.png.png) </br>
+![timeseries](/data/loss_1.png) </br>
+![timeseries](/data/predict_1.png) </br>
 
 #### time step = 2: </br>
-![timeseries](/data/loss_2.png.png) </br>
-![timeseries](/data/predict_2.png.png) </br>
+![timeseries](/data/loss_2.png) </br>
+![timeseries](/data/predict_2.png) </br>
 
 #### time step = 3: </br>
-![timeseries](/data/loss_3.png.png) </br>
-![timeseries](/data/predict_3.png.png) </br>
+![timeseries](/data/loss_3.png) </br>
+![timeseries](/data/predict_3.png) </br>
 
 ## Analysis
 
