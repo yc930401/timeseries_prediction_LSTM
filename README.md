@@ -5,7 +5,7 @@ Time series prediction with LSTM
 
 I learnt time series prediction in Operations Analytics class in SMU, we learnt ARIMA at that time and we used SAS EG to perform the analysis. SAS is not open source and is very expensive, not every company can buy SAS, but everyone can use python. After learning LSTM, a network suitable for sequence data. I'm always thinking about building a model to predict time series data. </br>
 The differences between ARIMA and LSTM are as follow:
-> 1. LSTM works better if we are dealing with huge amount of data and enough training data is available, while ARIMA is better for smaller datasets (is this correct?)
+> 1. LSTM works better if we are dealing with huge amount of data and enough training data is available, while ARIMA is better for smaller datasets.
 > 2. ARIMA requires a series of parameters (p,q,d) which must be calculated based on data, while LSTM does not require setting such parameters. However, there are some hyperparameters we need to tune for LSTM. 
 
 ## Methodology
