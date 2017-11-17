@@ -18,15 +18,15 @@ The dataset I use is https://archive.ics.uci.edu/ml/datasets/Beijing+PM2.5+Data
 
 ## Result
 
-#### time step = 1: </br>
+#### time step = 1, epochs = 50: Test RMSE: 12.707 </br>
 ![timeseries](/data/loss_1.png) </br>
 ![timeseries](/data/predict_1.png) </br>
 
-#### time step = 2: </br>
+#### time step = 2, epochs = 50: Test RMSE: 39.480 </br>
 ![timeseries](/data/loss_2.png) </br>
 ![timeseries](/data/predict_2.png) </br>
 
-#### time step = 3: </br>
+#### time step = 3, epochs = 50: Test RMSE: 51.060 </br>
 ![timeseries](/data/loss_3.png) </br>
 ![timeseries](/data/predict_3.png) </br>
 
