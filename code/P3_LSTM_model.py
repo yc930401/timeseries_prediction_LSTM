@@ -9,7 +9,7 @@ from P2_get_data import get_data
 
 epochs = 150
 batch_size = 100
-time_steps = 2
+time_steps = 3
 
 
 def LSTM_train(x_train, y_train, x_test, y_test):
@@ -24,6 +24,8 @@ def LSTM_train(x_train, y_train, x_test, y_test):
     plt.plot(history.history['loss'], label='train')
     plt.plot(history.history['val_loss'], label='test')
     plt.legend()
+    plt.ylabel('Loss')
+    plt.xlabel('Iteration')
     plt.savefig('loss_{}.png'.format(time_steps))
     plt.show()
 
