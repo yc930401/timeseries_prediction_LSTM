@@ -32,7 +32,8 @@ The dataset I use is https://archive.ics.uci.edu/ml/datasets/Beijing+PM2.5+Data
 
 ## Analysis
 
-The result is unexpected. The expectation of increased performance with the increase of time steps was not observed. Dr. Jason Brownlee has a post analysing the influence of different time steps. The conclusion is that LSTM with time setp=1 peforms best, to train larger time steps, we may need to build larger network and train more epochs. See the reference for more information.
+The result is unexpected. The expectation of increased performance with the increase of time steps was not observed. Dr. Jason Brownlee has a post analysing the influence of different time steps. The conclusion is that LSTM with time setp=1 peforms best, to train larger time steps, we may need to build larger network and train more epochs. See the reference for more information. </br>
+From my point of view, larger window result in larger time lag. 
 
 ## References
 https://machinelearningmastery.com/use-timesteps-lstm-networks-time-series-forecasting/ </br>
